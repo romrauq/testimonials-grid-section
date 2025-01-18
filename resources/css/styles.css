@@ -12,6 +12,10 @@
 	--light-grayish-blue: hsl(210, 46%, 95%);
 }
 body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 .main-container {
 }
