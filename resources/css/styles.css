@@ -11,6 +11,14 @@
 	--Light-gray: hsl(0, 0%, 81%);
 	--light-grayish-blue: hsl(210, 46%, 95%);
 }
+@font-face {
+	font-family: Barlow;
+	src: url("../fonts/BarlowSemiCondensed-Regular.ttf");
+}
+@font-face {
+	font-family: Barlow Bold;
+	src: url("../fonts/BarlowSemiCondensed-Bold.ttf");
+}
 body {
 	height: 100vh;
 	display: flex;
@@ -20,6 +28,7 @@ body {
 	background-color: var(--light-grayish-blue);
 }
 .main-container {
+	font-family: Barlow;
 	font-size: 13px;
 	margin: auto 0;
 	display: grid;
@@ -48,13 +57,17 @@ body {
 	border: 2px solid white;
 }
 .testimonial-name {
+	font-family: Barlow Bold;
 }
 .testimonial-job {
 	color: var(--Light-gray);
 }
 .testimonial-intro {
+	font-size: 16px;
+	font-family: Barlow Bold;
 }
-.testimonialbody {
+.testimonial-body {
+	line-height: 18px;
 }
 .daniel-grid {
 	color: var(--White);
@@ -80,6 +93,18 @@ body {
 	grid-row-end: 5;
 	background-color: var(--White);
 }
+.jeanette-grid .testimonial-name {
+	color: var(--very-dark-grayish-blue);
+}
+.jeanette-grid .testimonial-job {
+	color: var(--very-dark-grayish-blue);
+}
+.jeanette-grid .testimonial-intro {
+	color: var(--very-dark-grayish-blue);
+}
+.jeanette-grid .testimonial-body {
+	color: var(--very-dark-grayish-blue);
+}
 .patrick-grid {
 	color: var(--White);
 	grid-column-start: 3;
@@ -95,6 +120,18 @@ body {
 	grid-row-start: 1;
 	grid-row-end: 5;
 	background-color: var(--White);
+}
+.kira-grid .testimonial-name {
+	color: var(--very-dark-grayish-blue);
+}
+.kira-grid .testimonial-job {
+	color: var(--very-dark-grayish-blue);
+}
+.kira-grid .testimonial-intro {
+	color: var(--very-dark-grayish-blue);
+}
+.kira-grid .testimonial-body {
+	color: var(--very-dark-grayish-blue);
 }
 .attribution {
 	font-size: 11px;
