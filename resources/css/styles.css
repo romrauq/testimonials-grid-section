@@ -43,7 +43,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
-	box-shadow: 50px 50px 40px rgba(0, 0, 0, 0.15);
+	box-shadow: 50px 40px 20px rgba(0, 0, 0, 0.1);
 	border-radius: 10px;
 }
 .header-row {
