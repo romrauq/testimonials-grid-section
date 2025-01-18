@@ -1,0 +1,46 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+:root {
+	--moderate-violet: hsl(263, 55%, 52%);
+	--very-dark-grayish-blue: hsl(217, 19%, 35%);
+	--very-dark-blackish-blue: hsl(219, 29%, 14%);
+	--White: hsl(0, 0%, 100%);
+	--Light-gray: hsl(0, 0%, 81%);
+	--light-grayish-blue: hsl(210, 46%, 95%);
+}
+body {
+}
+.main-container {
+}
+.grid-item {
+}
+.header-row {
+}
+.testimonial-name {
+}
+.testimonial-job {
+}
+.testimonial-intro {
+}
+.testimonialbody {
+}
+.daniel-grid {
+}
+.jonathan-grid {
+}
+.jeanette-grid {
+}
+.patrick-grid {
+}
+.kira-grid {
+}
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
